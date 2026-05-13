@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Sync main with upstream
         env:
-          GH_TOKEN: ${{ secrets.FORK_SYNC_PAT }}
+          GH_TOKEN: ${{ secrets.JACOB_DEVELOPS_GH_TOKEN }}
         run: gh repo sync jacobdevelops/biome -b main
